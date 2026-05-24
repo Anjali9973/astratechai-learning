@@ -6,6 +6,6 @@ for(i=1;j<=100;i++){
         }
         if(count==2)
     }
-log(i,"it is prime no")
+console.log(i,"it is prime no")
 count=0
 }
