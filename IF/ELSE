@@ -1,0 +1,25 @@
+const age=32
+if (age<18){
+    console.log("not approved")
+}
+else if(age>=18 && age<=60){
+    console.log("approved")
+}else{
+     console.log(" invaled")
+}
+
+for ( let i=2; i<=100;i++){
+    let prime=true;
+    for(let j=2;j<i;j++){
+        if(i%j==0){
+            prime = false;
+            break;
+        }
+    }
+    if (prime)
+
+        console.log(i)
+}
+
+
+    
